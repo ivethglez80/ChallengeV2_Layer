@@ -1,3 +1,7 @@
+Modified for a challenge
+
+
+
 # Information
 
 Uisual is a collection of free landing page templates designed by Indonesian designer, [El Nino](https://github.com/elnino). There's no JS, only plain HTML and CSS. I'm creating Uisual as a portfolio to get a job, whether it's freelance, part-time, full-time, or contract. If you're interested in hiring me, feel free to [send me an email](mailto:elnino@uisual.com).
