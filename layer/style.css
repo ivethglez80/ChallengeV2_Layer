@@ -616,17 +616,24 @@ div label[for=ui-component-toggle__yearly] {
 .ui-section-input{
   border-radius: var(--ui-radius-button);
   background-color: var(--ui-color-background-tertiary);
-  border-color: none;
+  border-color: white;
   cursor: auto;
   padding: .30rem .30rem .30rem;
   border-style: none;
   width: max-content;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: var(--ui-color-typography-note);
 }
 
 .ui-section-input::placeholder {
   color: var(--ui-color-typography-note);
   font-weight: 500;
   font-size: var(--ui-typography-p);
+}
+
+.ui-section-input:focus {
+  outline: none;
 }
 
 
