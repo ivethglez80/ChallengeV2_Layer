@@ -23,6 +23,7 @@ TABLE OF CONTENT
 |  7.5 PRICING
 |  7.6 TESTIMONIAL
 |  7.7 CLOSE
+|  7.7.1 FORM
 |  7.8 FOOTER
 8.0 MEDIA
 |  8.1 768PX
@@ -517,7 +518,8 @@ div label[for=ui-component-toggle__yearly] {
 /* CARD */
 
 .ui-component-card--pricing {
-  background-color: var(--ui-color-background-primary);
+  /* background-color: var(--ui-color-background-primary); */
+  background: linear-gradient(to bottom, #9e42f5, #00c3ff, #96e7ff);
   padding: 1.5rem 1.5rem 1.75rem;
   text-align: left;
 }
@@ -598,6 +600,36 @@ div label[for=ui-component-toggle__yearly] {
   padding-top: 5rem;
   text-align: center;
 }
+
+/*--------------------------------------------------------------
+|
+| 7.7.1 FORM
+|
+--------------------------------------------------------------*/
+
+.ui-section-form {  
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.ui-section-input{
+  border-radius: var(--ui-radius-button);
+  background-color: var(--ui-color-background-tertiary);
+  border-color: none;
+  cursor: auto;
+  padding: .30rem .30rem .30rem;
+  border-style: none;
+  width: max-content;
+}
+
+.ui-section-input::placeholder {
+  color: var(--ui-color-typography-note);
+  font-weight: 500;
+  font-size: var(--ui-typography-p);
+}
+
+
 
 /*--------------------------------------------------------------
 |
